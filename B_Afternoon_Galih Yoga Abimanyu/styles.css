@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #186F65;
+    color: #ffff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #B5CB99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #FCE09B;
+
+}
+
+.Dashboard {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    background: url('images.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.isi-dashboard {
+    max-width: 700px;
+}
+
+.isi-dashboard h1 {
+    font-size: 60px;
+}
+
+.isi-dashboard h3 {
+    font-size: 30px;
+    color: #B2533E;
+}
+
+.isi-dashboard p {
+    margin: 20px 0 40px;
+}
+
+.btn-1 {
+    width: 350px;
+    height: 50px;
+    
+}
+
+.btn-1 a {
+    width: 150px;
+    height: 100%;
+    background: #B2533E;
+    justify-content: center;
+    border: 2px solid #B2533E;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.icon-1 {
+    position: absolute;
+    bottom: 180px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon-1 a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    color: #FCE09B;
+    font-size: 40px;
+    
+}
+
+  
